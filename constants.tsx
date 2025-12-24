@@ -73,6 +73,15 @@ export const ROADMAP_DATA = [
   },
 ];
 
+import paparazziThumbnail from "./dist/assets/paparazzi - thumbnail.png";
+import badRomanceThumbnail from "./dist/assets/bad-romance - thumbnail.png";
+import alejandroThumbnail from "./dist/assets/alejandro - thumbnail.png";
+import telephoneThumbnail from "./dist/assets/telephone - thumbnail.png";
+import bornThisWayThumbnail from "./dist/assets/born this way - thumbnail.png";
+import deadDanceThumbnail from "./dist/assets/the dead dance - thumbnail.png";
+import diseaseThumbnail from "./dist/assets/disease- thumbnail.png";
+import abracadabraThumbnail from "./dist/assets/abracadabra - thumbnail.png";
+
 export const VIDEOS_ROADMAP = [
   {
     year: "2009",
@@ -80,15 +89,23 @@ export const VIDEOS_ROADMAP = [
     description:
       "A cinematic exploration of deadly fame and fashion. Directed by Jonas Åkerlund, it transformed pop videos into short films.",
     url: "https://www.youtube.com/watch?v=d2smz_1L2_0",
-    thumbnail: "https://img.youtube.com/vi/d2smz_1L2_0/maxresdefault.jpg",
+    thumbnail: paparazziThumbnail,
   },
   {
     year: "2009",
     title: "BAD ROMANCE",
     description:
       "The definitive pop masterpiece. Featuring iconic McQueen armadillo boots and surreal choreography.",
-    url: "https://www.youtube.com/watch?v=qrO4VZDFvn8",
-    thumbnail: "https://img.youtube.com/vi/qrO4VZDFvn8/maxresdefault.jpg",
+    url: "https://youtu.be/qrO4YZeyl0I?list=RDqrO4YZeyl0I",
+    thumbnail: badRomanceThumbnail,
+  },
+  {
+    year: "2010",
+    title: "ALEJANDRO",
+    description:
+      "Released on June 8, 2010, and directed by fashion photographer Steven Klein, the music video for “Alejandro” is a cinematic work laden with religious and military symbolism that pays homage to musical theater and film noir.",
+    url: "https://youtu.be/niqrrmev4mA?list=RDniqrrmev4mA",
+    thumbnail: alejandroThumbnail,
   },
   {
     year: "2010",
@@ -96,7 +113,7 @@ export const VIDEOS_ROADMAP = [
     description:
       "An epic crime spree adventure with Beyoncé. A high-fashion sequel to Paparazzi filled with cultural references.",
     url: "https://www.youtube.com/watch?v=GQ95z6ywcBY",
-    thumbnail: "https://img.youtube.com/vi/GQ95z6ywcBY/maxresdefault.jpg",
+    thumbnail: telephoneThumbnail,
   },
   {
     year: "2011",
@@ -104,66 +121,50 @@ export const VIDEOS_ROADMAP = [
     description:
       "The birth of a new race. A surrealist manifesto on equality and self-expression directed by Nick Knight.",
     url: "https://www.youtube.com/watch?v=wV1FrqwZyKw",
-    thumbnail: "https://img.youtube.com/vi/wV1FrqwZyKw/maxresdefault.jpg",
+    thumbnail: bornThisWayThumbnail,
   },
   {
-    year: "2020",
-    title: "911",
+    year: "2025",
+    title: "The Dead Dance",
     description:
-      "A psychological thriller inspired by Armenian filmmaker Parajanov. A profound look into trauma and reality.",
-    url: "https://www.youtube.com/watch?v=HMEecqM7-No",
-    thumbnail: "https://img.youtube.com/vi/HMEecqM7-No/maxresdefault.jpg",
+      "The Dead Dance' is a hauntingly cinematic masterpiece directed by the legendary Tim Burton. Filmed on the eerie Island of the Dolls in Mexico, the video stars Lady Gaga as a porcelain doll brought to life in a gothic, monochrome dreamscape.",
+    url: "https://youtu.be/xGaZBfJOyAc?list=RDxGaZBfJOyAc",
+    thumbnail: deadDanceThumbnail,
   },
   {
-    year: "2024",
+    year: "2025",
     title: "DISEASE",
     description:
       "A dark, visceral exploration of inner demons and the cure that lies within the chaos.",
-    url: "https://www.youtube.com/watch?v=wKzL3q5ZlMg", // Placeholder URL, verify if real
-    thumbnail: "https://img.youtube.com/vi/KGh0k4i8XbU/maxresdefault.jpg", // Using Disease MV thumbnail ID
+    url: "https://youtu.be/fmC6b6_ovZY?list=RDfmC6b6_ovZY",
+    thumbnail: diseaseThumbnail,
   },
   {
     year: "2025",
     title: "ABRACADABRA",
     description:
       "A magical industrial-pop spectacle. The visual definition of the Mayhem era.",
-    url: "#",
-    thumbnail: "https://picsum.photos/seed/abracadabra/1280/720", // Placeholder
+    url: "https://youtu.be/vBynw9Isr28?list=RDvBynw9Isr28",
+    thumbnail: abracadabraThumbnail,
   },
 ];
 
 export const CONCERTS_DATA = [
   {
-    title: "The Chromatica Ball - Brazil (Mayhem Edit)",
+    title: "Mayhem on the Beach 4K ULTRA HD– Live in Rio 2025",
     description:
       "Experience the pure adrenaline of the Brazilian Little Monsters during the most ambitious stadium tour of the decade.",
-    url: "https://www.youtube.com/watch?v=fXvX09rR_3k",
-    thumbnail: "https://img.youtube.com/vi/fXvX09rR_3k/maxresdefault.jpg",
-    year: "2022",
+    url: "https://youtu.be/MbQ1vpmypK0?list=RDMbQ1vpmypK0",
+    thumbnail: "https://img.youtube.com/vi/MbQ1vpmypK0/maxresdefault.jpg",
+    year: "2025",
   },
   {
-    title: "The Monster Ball Tour - HBO Special",
-    description:
-      "The definitive pop spectacle that defined a generation. High fashion meets dark theatricality at Madison Square Garden.",
-    url: "https://www.youtube.com/watch?v=0_uWfNsh-4o",
-    thumbnail: "https://img.youtube.com/vi/0_uWfNsh-4o/maxresdefault.jpg",
-    year: "2011",
-  },
-  {
-    title: "Super Bowl LI Halftime Show",
+    title: "Pepsi Zero Sugar Super Bowl LI Halftime Show",
     description:
       "The most-watched musical event in history. A masterclass in athleticism, vocals, and sheer pop dominance.",
-    url: "https://www.youtube.com/watch?v=txXwg712zw4",
-    thumbnail: "https://img.youtube.com/vi/txXwg712zw4/maxresdefault.jpg",
+    url: "https://youtu.be/mjrdywp5nyE?list=RDmjrdywp5nyE",
+    thumbnail: "https://img.youtube.com/vi/mjrdywp5nyE/maxresdefault.jpg",
     year: "2017",
-  },
-  {
-    title: "The Born This Way Ball Tour",
-    description:
-      "Live from the Kingdom of Fame. An electro-metal pop opera featuring the iconic medieval castle stage.",
-    url: "https://www.youtube.com/watch?v=E_PAnz6vS8I",
-    thumbnail: "https://img.youtube.com/vi/E_PAnz6vS8I/maxresdefault.jpg",
-    year: "2013",
   },
 ];
 
