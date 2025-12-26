@@ -73,14 +73,14 @@ export const ROADMAP_DATA = [
   },
 ];
 
-import paparazziThumbnail from "./dist/assets/paparazzi - thumbnail.png";
-import badRomanceThumbnail from "./dist/assets/bad-romance - thumbnail.png";
-import alejandroThumbnail from "./dist/assets/alejandro - thumbnail.png";
-import telephoneThumbnail from "./dist/assets/telephone - thumbnail.png";
-import bornThisWayThumbnail from "./dist/assets/born this way - thumbnail.png";
-import deadDanceThumbnail from "./dist/assets/the dead dance - thumbnail.png";
-import diseaseThumbnail from "./dist/assets/disease- thumbnail.png";
-import abracadabraThumbnail from "./dist/assets/abracadabra - thumbnail.png";
+import paparazziThumbnail from "./assets/paparazzi - thumbnail.png";
+import badRomanceThumbnail from "./assets/bad-romance - thumbnail.png";
+import alejandroThumbnail from "./assets/alejandro - thumbnail.png";
+import telephoneThumbnail from "./assets/telephone - thumbnail.png";
+import bornThisWayThumbnail from "./assets/born this way - thumbnail.png";
+import deadDanceThumbnail from "./assets/the dead dance - thumbnail.png";
+import diseaseThumbnail from "./assets/disease- thumbnail.png";
+import abracadabraThumbnail from "./assets/abracadabra - thumbnail.png";
 
 export const VIDEOS_ROADMAP = [
   {
@@ -168,13 +168,13 @@ export const CONCERTS_DATA = [
   },
 ];
 
-import theFame from "./dist/assets/The Fame - RP.png";
-import TheFameMonster from "./dist/assets/The Fame Monster - RP.png";
-import BornThisWay from "./dist/assets/Born This Way - RP.png";
-import artpop from "./dist/assets/Artpop - RP.png";
-import chromatica from "./dist/assets/chromatica -- RP.png";
-import joanne from "./dist/assets/Joanne - RP.png";
-import mayhem from "./dist/assets/Mayhem -- RP.png";
+import theFame from "./assets/The Fame - RP.png";
+import TheFameMonster from "./assets/The Fame Monster - RP.png";
+import BornThisWay from "./assets/Born This Way - RP.png";
+import artpop from "./assets/Artpop - RP.png";
+import chromatica from "./assets/chromatica -- RP.png";
+import joanne from "./assets/Joanne - RP.png";
+import mayhem from "./assets/Mayhem -- RP.png";
 
 export const ALBUMS: AlbumData[] = [
   {
