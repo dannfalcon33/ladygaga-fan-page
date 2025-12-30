@@ -89,6 +89,9 @@ src/
 └── main.tsx        # Entry point
 ```
 
+## Live Demo
+https://ladygagafanpage.netlify.app/
+
 ## 🎨 Credits
 
 - Development & Design: You!
