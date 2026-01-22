@@ -9,12 +9,11 @@ export const NAV_OPTIONS: NavOption[] = [
   { id: Section.CONTACT, label: "Contact" },
 ];
 
-export const GAGA_IMAGES = [
-  "https://images.unsplash.com/photo-1598387993441-a364f854c3e1?auto=format&fit=crop&q=80&w=1920",
-  "https://images.unsplash.com/photo-1549834185-bd9f078a5dfe?auto=format&fit=crop&q=80&w=1920",
-  "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=1920",
-  "https://images.unsplash.com/photo-1493225255756-d9584f8606e9?auto=format&fit=crop&q=80&w=1920",
-];
+import gagaAvant from "./assets/gaga-avant-DC5dKEV_.webp";
+import gagaCyber from "./assets/gaga-cyber-BlTeHs4Z.webp";
+import gagaHolo from "./assets/gaga-holo-AlK3NdV9.webp";
+
+export const GAGA_IMAGES = [gagaAvant, gagaCyber, gagaHolo];
 
 export const ROADMAP_DATA = [
   {
@@ -73,14 +72,14 @@ export const ROADMAP_DATA = [
   },
 ];
 
-import paparazziThumbnail from "./assets/paparazzi - thumbnail.png";
-import badRomanceThumbnail from "./assets/bad-romance - thumbnail.png";
-import alejandroThumbnail from "./assets/alejandro - thumbnail.png";
-import telephoneThumbnail from "./assets/telephone - thumbnail.png";
-import bornThisWayThumbnail from "./assets/born this way - thumbnail.png";
-import deadDanceThumbnail from "./assets/the dead dance - thumbnail.png";
-import diseaseThumbnail from "./assets/disease- thumbnail.png";
-import abracadabraThumbnail from "./assets/abracadabra - thumbnail.png";
+import paparazziThumbnail from "./assets/paparazzi - thumbnail-DUvKbnLV.webp";
+import badRomanceThumbnail from "./assets/bad-romance - thumbnail-tpo9pYlu.webp";
+import alejandroThumbnail from "./assets/alejandro - thumbnail-BTzEr6_P.webp";
+import telephoneThumbnail from "./assets/telephone - thumbnail-DhPNp_yH.webp";
+import bornThisWayThumbnail from "./assets/born this way - thumbnail-0K3SrFrW.webp";
+import deadDanceThumbnail from "./assets/the dead dance - thumbnail-CyUXyfjT.webp";
+import diseaseThumbnail from "./assets/disease- thumbnail-BOIpg3Ws.webp";
+import abracadabraThumbnail from "./assets/abracadabra - thumbnail-Bm0M-jCv.webp";
 
 export const VIDEOS_ROADMAP = [
   {
@@ -168,13 +167,13 @@ export const CONCERTS_DATA = [
   },
 ];
 
-import theFame from "./assets/The Fame - RP.png";
-import TheFameMonster from "./assets/The Fame Monster - RP.png";
-import BornThisWay from "./assets/Born This Way - RP.png";
-import artpop from "./assets/Artpop - RP.png";
-import chromatica from "./assets/chromatica -- RP.png";
-import joanne from "./assets/Joanne - RP.png";
-import mayhem from "./assets/Mayhem -- RP.png";
+import theFame from "./assets/The Fame - RP-B31p5ppz.webp";
+import TheFameMonster from "./assets/The Fame Monster - RP-DOrPDMkI.webp";
+import BornThisWay from "./assets/Born This Way - RP-Crc2lqXm.webp";
+import artpop from "./assets/Artpop - RP-D8xEe-y3.webp";
+import chromatica from "./assets/chromatica -- RP-CCN7WXs3.webp";
+import joanne from "./assets/Joanne - RP-Ceoj7P2a.webp";
+import mayhem from "./assets/Mayhem -- RP-BOpv_BrO.webp";
 
 export const ALBUMS: AlbumData[] = [
   {
